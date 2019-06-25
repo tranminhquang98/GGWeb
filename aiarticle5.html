@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.5">
+  <title>What is a Chatbot and How to Use It for Your Business</title>
+  <link rel="icon" href="images/favicon-16x16.png">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,900|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script>
+    function countChar(val) {
+      var len = val.value.length;
+      if (len >= 500) {
+        val.value = val.value.substring(0, 500);
+      } else {
+        $('#charNum').text(500 - len);
+      }
+    };
+  </script>
+</head>
+
+<body>
+  <section id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="index.html" style="width: 17%;"><img src="images/logo.jpg" style="width: 100%; " alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown">About</a>
+              <div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="mission.html">Mission</a>
+                <a class="dropdown-item" href="management.html">Management Team</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown">Services</a>
+              <div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="dataanalytic.html">Data Analytics</a>
+                <a class="dropdown-item" href="webdevelopmen.htmlt">Web Development</a>
+                <a class="dropdown-item" href="mobiledevelopment.html">Mobile App Development</a>
+                <a class="dropdown-item" href="softwaredevelopment.html">Software Product Development</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown">Industries</a>
+              <div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="bankfinanceservice.html">Banking & Financial Services</a>
+                <a class="dropdown-item" href="retail.html">Retail</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown">Blog</a>
+              <div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="aiblog.html">AI</a>
+                <a class="dropdown-item" href="news.html">News</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="career.html">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contacts</a>
+            </li>
+
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </ul>
+
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <section>
+    <div class="">
+      <div style="display: flex; flex-direction:column; align-items: flex-start; margin-left: 15%; padding: 0 0 1% 0">
+        <h2 style="margin-top: 2%; margin-bottom: 1%; width: 85%;">What is a Chatbot and How to Use It for Your Business</h2>
+        <small style="margin-bottom: 1%">5 Jan 2018</small>
+        <img src="images/aiblog5.jpeg" style="max-width: 80%; height: auto;" alt="">
+        <p style="margin-top: 1%; width: 85%;">The evolution of artificial intelligence is now in full swing and chatbots are only a faint splash on a huge wave of progress. Today the number of users of messaging apps like WhatsApp, Slack, Skype and
+          their analogs is skyrocketing, Facebook Messenger alone has more than 1.2 billion monthly users. With the spread of messengers, virtual chatterbots that imitate human conversations for solving various tasks are becoming increasingly in
+          demand. Chinese WeChat bots can already set medical appointments, call a taxi, send money to friends, check in for a flight and many many other.</p>
+        <p style="margin-top: 1%; width: 85%;">Online chatbots save time and efforts by automating customer support. Gartner forecasts that by 2020, over 85% of customer interactions will be handled without a human. However, the opportunites provided
+          by chatbot systems go far beyond giving responses to customers’ inquiries. They are also used for other business tasks, like collecting information about users, helping to organize meetings and reducing overhead costs. There is no wonder
+          that size of the chatbot market is growing exponentially.</p>
+        <p style="margin-top: 1%; width: 85%;">Of course, it is not so simple to create an interactive agent that the user will really trust. That’s why IM bots have not replaced all the couriers, doctors and the author of these lines. In this
+          article, instead of talking about the future of chatbots, we will give you a short excursion into the topic of chatbots, how they work, how they can be employed and how difficult it is to create one yourself.</p>
+        <h3 style="margin-top: 2%; margin-bottom: 2%; width: 85%;">What is chatbot and what is it for?</h3>
+        <p style="width: 85%;">It is an assistant that communicates with us through text messages, a virtual companion that integrates into websites, applications or instant messengers and helps entrepreneurs to get closer to customers. Such a bot is
+          an automated system of communication with users.</p>
+        <p style="margin-top: 1%; width: 85%;">Why does a business need chatbots? There are reasons for that like getting rid of routine tasks and simultaneous processing of multiple requests from users. Besides, a tremendous speed of processing
+          users’ requests with chatbots helps gaining customers’ loyalty.</p>
+        <p style="margin-top: 1%; width: 85%;">Consumers also benefit from chatbots and they are getting increasingly interested in this technology. A study presented at the 4th International Conference on Internet Science in November, 2017
+          identified reasons why people choose to interact with chatbots. According to this research, the main factors that motivate people to use chatbots are:</p>
+        <div class="container-fluid" style="display: flex; flex-direction: column; align-items: flex-start; padding: 0 0 0 0;">
+          <div style="display: flex; flex-direction: row; align-items: flex-start; width: 100%;">
+            <div style="display: flex; flex-direction: row; margin-right: 20px;">
+              <p>◼</p>
+            </div>
+            <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+              <div style="justify-content: flex-start; display: flex;">
+                <p align="left"><strong>Productivity</strong>. Chatbots provide the assistance or access to information quickly and efficiently.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid" style="display: flex; flex-direction: column; align-items: flex-start; padding: 0 0 0 0;">
+          <div style="display: flex; flex-direction: row; align-items: flex-start; width: 100%;">
+            <div style="display: flex; flex-direction: row; margin-right: 20px;">
+              <p>◼</p>
+            </div>
+            <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+              <div style="justify-content: flex-start; display: flex;">
+                <p align="left"><strong>Entertainment</strong>. Chatbots amuse people by giving them funny tips, they also help killing time when users have nothing to do.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid" style="display: flex; flex-direction: column; align-items: flex-start; padding: 0 0 0 0;">
+          <div style="display: flex; flex-direction: row; align-items: flex-start; width: 100%;">
+            <div style="display: flex; flex-direction: row; margin-right: 20px;">
+              <p>◼</p>
+            </div>
+            <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+              <div style="justify-content: flex-start; display: flex;">
+                <p align="left"><strong>Social and relational factors</strong>. Chatbots fuel conversions and enhance social experiences. Chatting with bots also helps to avoid lonliness, gives a chance to talk without being judged and improves
+                  conversational skills.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid" style="display: flex; flex-direction: column; align-items: flex-start; padding: 0 0 0 0;">
+          <div style="display: flex; flex-direction: row; align-items: flex-start; width: 100%;">
+            <div style="display: flex; flex-direction: row; margin-right: 20px;">
+              <p>◼</p>
+            </div>
+            <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+              <div style="justify-content: flex-start; display: flex;">
+                <p align="left"><strong>Curiosity</strong>. The novelty of chatbots sparks curiosity. People want to explore their abilities and to try something new.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3 style="margin-top: 2%; margin-bottom: 2%; width: 85%;">Take a look into the history of chatbots</h3>
+        <img src="resources/images/aiblog5.1.jpeg" style="max-width: 80%; height: auto;" alt="">
+        <p style="margin-top: 1%; width: 85%;">And we will find that the first conversational bot was written in the USA in 1966. It was implemented by Joseph Weizenbaum, computer scientist of the Massachusetts Institute of Technology, and was named
+          Eliza. The chatbot misled people, so authentic the communication with it was.</p>
+        <p style="margin-top: 1%; width: 85%;">In the early 90’s, the Turing test, which allows determining the possibility of thinking by computers, was developed. It consists in the following. A person talks to both the person and the computer. The
+          goal is to find out who his interlocutor is — a person or a machine. This test is carried out in our days and many conversational programs have coped with it successfully.</p>
+        <h3 style="margin-top: 2%; margin-bottom: 2%; width: 85%;">As for types of chatbots</h3>
+        <p style="width: 85%;">Depending on how the specific bots were programmed, we can divide them into two large groups: working according to pre-prepared commands (simple chatbot) and trained (smart or advanced chatbot).</p>
+        <p style="margin-top: 1%; width: 85%;"><strong>Simple chatbots</strong> work based on pre-written keywords that they understand. Each of these commands must be written by the developer separately using regular expressions or other forms of
+          string analysis. If the user has asked a question without using a single keyword, the robot can not understand it and, as a rule, responds with messages like “sorry, I did not understand”.</p>
+        <p style="margin-top: 1%; width: 85%;"><strong>Smart chatbots</strong> rely on artificial intelligence when they communicate with users. Instead of pre-prepared answers, the robot responds with adequate suggestions on the topic. In addition,
+          all the words said by the customers are recorded for later processing. However, the Forrester report “The State of Chatbots” points out that artificial intelligence is not a magic and is not yet ready to produce marvelous experiences for
+          users on its own. On the contrary, it requires a huge work:</p>
+        <p style="margin-top: 1%; width: 85%;"><strong>“Chat developers and designers are the gardeners: they have to tend to the chatbots and coach their growth through continuous, yet gentle, correction. these designers must also beg, coerce, and
+            incent customers to put up with subpar experiences during the process: the learning is really slow.”</strong></p>
+        <h3 style="margin-top: 2%; margin-bottom: 2%; width: 85%;">The most popular chatbot</h3>
+        <p style="width: 85%;">There are various search engines for bots, such as Chatbottle, Botlist and Thereisabotforthat, for example, helping developers to inform users about the launch of new talkbots. These sites also provide a ranking of bots
+          by various parameters: the number of votes, user statistics, platforms, categories (travel, productivity, social interaction, e-commerce, entertainment, news, etc.). They feature more than three and a half thousand bots for Facebook
+          Messenger, Slack, Skype and Kik.</p>
+        <p style="margin-top: 1%; width: 85%;">Through the chatbot search engines, you can find an interesting application in each category, e.g. the best chatbot for Facebook Messenger is Poncho. It sends you personal weather forecasts with jokes or
+          funny memes and, thus, looks more like a meteorologist friend than a soulless weather reporting service.</p>
+        <h3 style="margin-top: 2%; margin-bottom: 2%; width: 85%;">How to build a chatbot</h3>
+        <p style="width: 85%;">If we managed to inspire you to create your own chatbot, here are some tips to help you get started. There are 4 main stages:.</p>
+        <div class="container-fluid" style="display: flex; flex-direction: column; align-items: flex-start; padding: 0 0 0 0;">
+          <div style="display: flex; flex-direction: row; align-items: flex-start; width: 100%;">
+            <div style="display: flex; flex-direction: row; margin-right: 20px;">
+              <p><strong>1.</strong></p>
+            </div>
+            <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+              <div style="justify-content: flex-start; display: flex;">
+                <p align="left"><strong>Define the goals. </strong>What should your chatbot do? Clearly indicate the list of functions your chatbot needs to perform. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid" style="display: flex; flex-direction: column; align-items: flex-start; padding: 0 0 0 0;">
+          <div style="display: flex; flex-direction: row; align-items: flex-start; width: 100%;">
+            <div style="display: flex; flex-direction: row; margin-right: 20px;">
+              <p><strong>2.</strong></p>
+            </div>
+            <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+              <div style="justify-content: flex-start; display: flex;">
+                <p align="left"><strong>Choose a channel to interact with your customers. </strong>Be where your clients prefer to communicate — your website, mobile app, Facebook Messenger, WhatsApp or other messaging platform.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid" style="display: flex; flex-direction: column; align-items: flex-start; padding: 0 0 0 0;">
+          <div style="display: flex; flex-direction: row; align-items: flex-start; width: 100%;">
+            <div style="display: flex; flex-direction: row; margin-right: 20px;">
+              <p><strong>3.</strong></p>
+            </div>
+            <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+              <div style="justify-content: flex-start; display: flex;">
+                <p align="left"><strong>Choose the way of creation. </strong> There are two of them: using readymade chat bot software or building a custom bot from scratch. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid" style="display: flex; flex-direction: column; align-items: flex-start; padding: 0 0 0 0;">
+          <div style="display: flex; flex-direction: row; align-items: flex-start; width: 100%;">
+            <div style="display: flex; flex-direction: row; margin-right: 20px;">
+              <p><strong>4.</strong></p>
+            </div>
+            <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+              <div style="justify-content: flex-start; display: flex;">
+                <p align="left"><strong>Create, customize and launch. </strong>Describe the algorithm of its actions, develop a database of answers and test the work of the chatbot. Double check everything before showing your creation to potential
+                  customers.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="display: flex; flex-direction:column; align-items: flex-end; margin-right: 15%; padding-bottom: 3%">
+        <p><em>By Anadea</em></p>
+      </div>
+    </div>
+  </section>
+  <footer class="white-section" id="footer">
+    <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center;">
+      <div style="display: flex; flex-direction: row; justify-content: space-around; align-items: center; width: 100%;">
+        <div style="display: flex; flex-direction:row;">
+          <h4>GOLDENGATE</h4>
+        </div>
+
+        <div style="display: flex; flex-direction:row;">
+          <i class="fas fa-map-marker-alt fa-1x" style="margin-right: 10px"></i>
+          <h6>36 Hoang Cau St, Hanoi</h6>
+        </div>
+
+        <div style="display: flex; flex-direction:row;">
+          <i class="fas fa-envelope fa-1x" style="margin-right: 10px"></i>
+          <a href="mailto:contact@goldengate.biz.vn" style="color: #212529;">
+            <h6>contact@goldengate.biz.vn</h6>
+          </a>
+        </div>
+      </div>
+      <hr>
+      <div>
+        <a href="https://www.facebook.com/" style="color: #212529;"><i class="social-icon fab fa-facebook-f fa-2x"></i></a>
+        <a href="https://twitter.com/GoldenGate_Tech" style="color: #212529;"><i class="social-icon fab fa-twitter fa-2x"></i></a>
+        <a href="https://linkedin.com/in/goldengate-technology" style="color: #212529;"><i class="social-icon fab fa-linkedin-in fa-2x"></i></a>
+      </div>
+      <p>© 2015 GoldenGate Corporation.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

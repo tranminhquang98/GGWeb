@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.5">
+  <title>Web development</title>
+  <link rel="icon" href="images/favicon-16x16.png">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,900|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script>
+    function countChar(val) {
+      var len = val.value.length;
+      if (len >= 500) {
+        val.value = val.value.substring(0, 500);
+      } else {
+        $('#charNum').text(500 - len);
+      }
+    };
+  </script>
+</head>
+
+<body style="text-align: center">
+  <section id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="index.html" style="width: 17%;"><img src="images/logo.jpg" style="width: 100%; " alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown">About</a>
+              <div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="mission.html">Mission</a>
+                <a class="dropdown-item" href="management.html">Management Team</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown">Services</a>
+              <div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="dataanalytic.html">Data Analytics</a>
+                <a class="dropdown-item" href="webdevelopment.html">Web Development</a>
+                <a class="dropdown-item" href="mobiledevelopment.html">Mobile App Development</a>
+                <a class="dropdown-item" href="softwaredevelopment.html">Software Product Development</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown">Industries</a>
+              <div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="bankfinanceservice.html">Banking & Financial Services</a>
+                <a class="dropdown-item" href="retail.html">Retail</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown">Blog</a>
+              <div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="aiblog.html">AI</a>
+                <a class="dropdown-item" href="news.html">News</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="career.html">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contacts</a>
+            </li>
+
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </ul>
+
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <h2 style="margin-top: 2%">Web Development Services</h2>
+  <section>
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+      <img src="images/web1.png" style="max-width: 100%; height: auto;" alt="">
+      <p style="padding: 0 30%; margin-top: 10px; margin-bottom: 10px;">As a full-stack web development company, we deliver a wide range of custom web solutions for small and big businesses in different domains. With maximum effort and attention to
+        details, we create web apps, services, and sites that accurately answer your expectations and satisfy the specific needs of your company.</p>
+    </div>
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 0 20%;">
+      <div style="display: flex; flex-direction: column; align-items: flex-start;">
+        <p align="left">◼ <strong>The back end</strong> and <strong>the front end</strong> created with the most <strong>reliable</strong> and <strong>relevant modern techs</strong>.</p>
+        <p align="left">◼ <strong>Any browser</strong>.</p>
+        <p align="left">◼ <strong>Any device</strong>.</p>
+        <p align="left">◼ <strong>Flawless user experience</strong>.</p>
+        <p align="left">◼ A thought-out architecture - <strong>cloud-native, microservices-based</strong> or <strong>reactive approach</strong>.</p>
+        <p align="left">◼ <strong>Impeccable integration</strong> with ERP, CRM, PLM, and other business systems.</p>
+      </div>
+    </div>
+    <h2 style="margin: 3% 0 0 0;">What We're Good at</h2>
+    <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 3% 0;">
+      <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; width: 100%;">
+        <div style="display: flex; flex-direction: row; margin-right: 20px;">
+          <img src="images/web2.png" alt="">
+        </div>
+        <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+          <h3 align="left">Web applications</h3>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">We make responsive web applications of various types and complexity with an eye for their future growth. We power them with user-centered design and, if necessary, complement with a seamless mobile experience. We optimize
+              them for a large number of users and attentively consider the functionality for both registered and non-registered ones.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class=" container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 0 0 3% 0;">
+      <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; width: 100%;">
+        <div style="display: flex; flex-direction: row; margin-right: 20px;">
+          <img src="images/web3.png" alt="">
+        </div>
+        <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+          <h3 align="left">Web portals</h3>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">We build various types of B2B and B2C web portals that introduce the highest standard of confidentiality and integrity and can be optionally integrated with multiple data sources and applications (payment systems,
+              social networks, ERP/CRM).</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ eProcurement</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ eCommere</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ eLearning</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ Self-service portals</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ Collaboration portals, etc.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 0 0 3% 0;">
+      <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; width: 100%;">
+        <div style="display: flex; flex-direction: row; margin-right: 20px;">
+          <img src="images/web4.png" alt="">
+        </div>
+        <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+          <h3 align="left">Mobile web apps</h3>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">With the latest tools and techniques, we provide productive and intuitive in-browser mobile apps of different natures (collaboration, booking, ticketing, e-commerce, maintenance, field force automation). Our
+              platform-independent mobile web experiences engage their users with mobile-optimized functionality and page display, and, since working from a browser, can be easily found on the Internet.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class=" container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 0 0 3% 0;">
+      <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; width: 100%;">
+        <div style="display: flex; flex-direction: row; margin-right: 20px;">
+          <img src="images/web5.png" alt="">
+        </div>
+        <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+          <h3 align="left">Public web services</h3>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">We deliver public web services building an open API on top of your server. Thus, the smooth, fast and secure provision of server data to outside web-based solutions (web apps, other web services, etc.) becomes possible
+              over the network.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class=" container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 0 0 3% 0;">
+      <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; width: 100%;">
+        <div style="display: flex; flex-direction: row; margin-right: 20px;">
+          <img src="images/web6.png" alt="">
+        </div>
+        <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+          <h3 align="left">Websites</h3>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">Carefully balancing interactive components and SEO-optimized design, we deliver websites that both captivate their visitors and reach high SEO rates. As a result, you get much better chances for effective web presence.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2 style=" margin: 0 0 2% 0;">Technologies We Work With</h2>
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+      <p style="padding: 0 30%; margin-top: 10px; margin-bottom: 10px;">We rely on a rich technology stack to deliver top-level applications of various complexity.</p>
+    </div>
+    <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 3% 0;">
+      <div style="display: flex; flex-direction: row; justify-content: center; align-items: center; width: 100%;">
+        <div style="display: flex; flex-direction: column; align-items: flex-start; margin-right: 20px;">
+          <p align="left"><strong>Front end</strong></p>
+          <p align="left"><strong>Back end</strong></p>
+          <p align="left"><strong>Mobile</strong></p>
+          <p align="left"><strong>Databases</strong></p>
+        </div>
+        <div style="display: flex; flex-direction:column; align-items: flex-start; max-width: 50%">
+          <p align="left">HTML, CSS, JavaScript (Angular, React, Backbone, Meteor, etc.)</p>
+          <p align="left">.NET, Java, PHP, Node.js</p>
+          <p align="left">iOS, Android, Windows Phone, Apache Cordova, Xamarin</p>
+          <p align="left">Microsoft SQL Server, MySQL, Oracle, SQL Azure, PostgreSQL, MongoDB</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="white-section" id="footer">
+    <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center;">
+      <div style="display: flex; flex-direction: row; justify-content: space-around; align-items: center; width: 100%;">
+        <div style="display: flex; flex-direction:row;">
+          <h4>GOLDENGATE</h4>
+        </div>
+
+        <div style="display: flex; flex-direction:row;">
+          <i class="fas fa-map-marker-alt fa-1x" style="margin-right: 10px"></i>
+          <h6>36 Hoang Cau St, Hanoi</h6>
+        </div>
+
+        <div style="display: flex; flex-direction:row;">
+          <i class="fas fa-envelope fa-1x" style="margin-right: 10px"></i>
+          <a href="mailto:contact@goldengate.biz.vn" style="color: #212529;">
+            <h6>contact@goldengate.biz.vn</h6>
+          </a>
+        </div>
+      </div>
+      <hr>
+      <div>
+        <a href="https://www.facebook.com/" style="color: #212529;"><i class="social-icon fab fa-facebook-f fa-2x"></i></a>
+        <a href="https://twitter.com/GoldenGate_Tech" style="color: #212529;"><i class="social-icon fab fa-twitter fa-2x"></i></a>
+        <a href="https://linkedin.com/in/goldengate-technology" style="color: #212529;"><i class="social-icon fab fa-linkedin-in fa-2x"></i></a>
+      </div>
+      <p>© 2015 GoldenGate Corporation.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

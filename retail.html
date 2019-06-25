@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.5">
+  <title>IT Services & Solutions for Retail</title>
+  <link rel="icon" href="images/favicon-16x16.png">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,900|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script>
+    function countChar(val) {
+      var len = val.value.length;
+      if (len >= 500) {
+        val.value = val.value.substring(0, 500);
+      } else {
+        $('#charNum').text(500 - len);
+      }
+    };
+  </script>
+</head>
+
+<body style="text-align: center">
+  <section id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="index.html" style="width: 17%;"><img src="images/logo.jpg" style="width: 100%; " alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown">About</a>
+              <div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="mission.html">Mission</a>
+                <a class="dropdown-item" href="management.html">Management Team</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown">Services</a>
+              <div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="dataanalytic.html">Data Analytics</a>
+                <a class="dropdown-item" href="webdevelopment.html">Web Development</a>
+                <a class="dropdown-item" href="mobiledevelopment.html">Mobile App Development</a>
+                <a class="dropdown-item" href="softwaredevelopment.html">Software Product Development</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown">Industries</a>
+              <div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="bankfinanceservice.html">Banking & Financial Services</a>
+                <a class="dropdown-item" href="retail.html">Retail</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown">Blog</a>
+              <div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="aiblog.html">AI</a>
+                <a class="dropdown-item" href="news.html">News</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="career.html">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contacts</a>
+            </li>
+
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </ul>
+
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <h2 style="margin-top: 2%; padding: 0 20%;">IT Services & Solutions for Retail and E-commerce</h2>
+  <section>
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+      <img src="images/retail1.png" style="max-width: 100%; height: auto;" alt="">
+      <p style="padding: 0 30%; margin-top: 10px; margin-bottom: 10px;">We help retail and consumer goods industry players live up to their customers’ expectations through technology. With over <strong>16 years of domain experience</strong>, our
+        retail IT consultants serve custom software solutions to the entire retail ecosystem, supporting client businesses across physical and digital.</p>
+      <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 3% 0;">
+        <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; width: 100%;">
+          <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+            <div style="justify-content: flex-start; display: flex;">
+              <p align="left">We help retail and consumer goods industry players live up to their customers’ expectations through technology. With over <strong>16 years of domain experience</strong>, our retail IT consultants serve custom software
+                solutions to the entire retail ecosystem, supporting client businesses across physical and digital.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 0 0 3% 0;">
+      <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; width: 100%;">
+        <div style="display: flex; flex-direction: row; margin-right: 20px;">
+          <img src="images/retail2.png" alt="">
+        </div>
+        <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+          <h3>Customer Experience</h3>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">As consumers expect a truly omni-channel experience, we respond to this challenge by helping brands to provide consistent and personalized service – before, during and after a purchase.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">Our CXM solutions reflect the industry’s current mindset and support integrated experiences across consumer touchpoints – web, POS, mobile, click & collect and social.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p style="padding-right: 0.8%">&nbsp &nbsp</p>
+            <p align="left"><strong>CRM and marketing automation</strong>: developing personalized and lasting relationships with complete, actionable customer data at hand</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p style="padding-right: 0.8%">&nbsp &nbsp</p>
+            <p align="left"><strong>Loyalty programs</strong>: implementing customer retention strategies through СRM-powered management of loyalty schemes across in-store, web and mobile channels.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p style="padding-right: 0.8%">&nbsp &nbsp</p>
+            <p align="left"><strong>In-store experience</strong>: bringing next-gen technologies to your physical outlets, including integration of POS terminals and mobile devices.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 0 0 3% 0;">
+      <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; width: 100%;">
+        <div style="display: flex; flex-direction: row; margin-right: 20px;">
+          <img src="images/retail3.png" alt="">
+        </div>
+        <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+          <h3>Ecommerce</h3>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">We deliver scalable solutions that meet consumers’ requirements, facilitate their enjoyable, secure shopping experience and supply operational analytics for marketing and sales.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p style="padding-right: 0.8%">&nbsp &nbsp</p>
+            <p align="left"><strong>Online shopping cart</strong>: enabling secure transaction processing with a broad selection of payment gateways.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p style="padding-right: 0.8%">&nbsp &nbsp</p>
+            <p align="left"><strong>Integration</strong>: connecting your ecommerce module with the entire line-up of enterprise systems (ERP, CRM, back office and more).</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p style="padding-right: 0.8%">&nbsp &nbsp</p>
+            <p align="left"><strong>mCommerce</strong>: offering mobile shopping for consumers across a variety of devices.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 0 0 3% 0;">
+      <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; width: 100%;">
+        <div style="display: flex; flex-direction: row; margin-right: 20px;">
+          <img src="images/retail4.png" alt="">
+        </div>
+        <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+          <h3>Supply Chain</h3>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">We enable real-time visibility into every stage of the supply chain, from manufacturing to checkout.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p style="padding-right: 0.8%">&nbsp &nbsp</p>
+            <p align="left"><strong>Supply chain management</strong>: automating your buying and selling processes that cover inventory management, store operations and financials.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p style="padding-right: 0.8%">&nbsp &nbsp</p>
+            <p align="left"><strong>Private label product management</strong>: managing relationships with manufacturers and monitoring products throughout their lifecycles.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p style="padding-right: 0.8%">&nbsp &nbsp</p>
+            <p align="left"><strong>Trade promotion management</strong>: gaining a complete control of planning, execution and analysis of trade promotions at every outlet.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p style="padding-right: 0.8%">&nbsp &nbsp</p>
+            <p align="left"><strong>E-collaboration</strong>: making remote collaboration possible between buyers, vendors and private label manufacturers.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p style="padding-right: 0.8%">&nbsp &nbsp</p>
+            <p align="left"><strong>Enterprise mobile apps</strong>: powering your staff with role-specific mobile solutions for a real-time access to work-critical functionality.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 0 0 3% 0;">
+      <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; width: 100%;">
+        <div style="display: flex; flex-direction: row; margin-right: 20px;">
+          <img src="images/retail5.png" alt="">
+        </div>
+        <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+          <h3>Data Analysis and Business Intelligence</h3>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">We help you make informed decisions based on rich analytics sourced from your IT ecosystem and customer touchpoints.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p style="padding-right: 0.8%">&nbsp &nbsp</p>
+            <p align="left"><strong>Data warehousing and master data management</strong>: putting together a single version of truth by cleansing and integrating your data from multiple distributed sources.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p style="padding-right: 0.8%">&nbsp &nbsp</p>
+            <p align="left"><strong>OLAP cubes</strong>: handling careful combinations of relevant metrics on customer behavior, inventory, operations, finance and more from the standpoints you require.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p style="padding-right: 0.8%">&nbsp &nbsp</p>
+            <p align="left"><strong>Reporting UI</strong>: providing users with interactive reporting dashboards that can be tailored to their particular role.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p style="padding-right: 0.8%">&nbsp &nbsp</p>
+            <p align="left"><strong>Predictive analytics</strong>: tapping into customer trends and demand forecasts with meaningful data.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 0 0 3% 0;">
+      <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; width: 100%;">
+        <div style="display: flex; flex-direction: row; margin-right: 20px;">
+          <img src="images/retail6.png" alt="">
+        </div>
+        <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+          <h3>Information Security</h3>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">We help you maintain advanced fraud management.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p style="padding-right: 0.8%">&nbsp &nbsp</p>
+            <p align="left"><strong>Identity and access management</strong>: securing and controlling role-based access to your data assets.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2>Our Capabilities</h2>
+    <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 3% 0;">
+      <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; width: 100%;">
+        <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">Our technological competencies cover the full cycle of retail software development services:</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ custom development</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ redesign of enterprise systems</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ maintenance</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ support</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">These services are delivered by on-demand, scalable teams of ideators and practitioners who include business analysts, software consultants and engineers, graphic designers and quality assurance professionals.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">Our strategic relations with the technology leaders open extra opportunities for us and help to ease implementations for our customers.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">We are ready to work from a rough concept up to bring your ideas to life. Contact us today for <strong>a free consultation</strong>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="white-section" id="footer">
+    <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center;">
+      <div style="display: flex; flex-direction: row; justify-content: space-around; align-items: center; width: 100%;">
+        <div style="display: flex; flex-direction:row;">
+          <h4>GOLDENGATE</h4>
+        </div>
+
+        <div style="display: flex; flex-direction:row;">
+          <i class="fas fa-map-marker-alt fa-1x" style="margin-right: 10px"></i>
+          <h6>36 Hoang Cau St, Hanoi</h6>
+        </div>
+
+        <div style="display: flex; flex-direction:row;">
+          <i class="fas fa-envelope fa-1x" style="margin-right: 10px"></i>
+          <a href="mailto:contact@goldengate.biz.vn" style="color: #212529;">
+            <h6>contact@goldengate.biz.vn</h6>
+          </a>
+        </div>
+      </div>
+      <hr>
+      <div>
+        <a href="https://www.facebook.com/" style="color: #212529;"><i class="social-icon fab fa-facebook-f fa-2x"></i></a>
+        <a href="https://twitter.com/GoldenGate_Tech" style="color: #212529;"><i class="social-icon fab fa-twitter fa-2x"></i></a>
+        <a href="https://linkedin.com/in/goldengate-technology" style="color: #212529;"><i class="social-icon fab fa-linkedin-in fa-2x"></i></a>
+      </div>
+      <p>© 2015 GoldenGate Corporation.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

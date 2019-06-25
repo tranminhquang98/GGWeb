@@ -1,0 +1,189 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fffff;
+}
+
+.container-fluid {
+  padding: 3% 3%;
+}
+
+#title {
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.navbar-nav li:hover .dropdown-menu {
+  display: block;
+}
+
+.intro-h1 {
+  padding-bottom: 5%;
+  text-align: center;
+  padding-top: 9%;
+  font-weight: 500;
+}
+
+.intro-col {
+  text-align: center;
+  padding: 4%;
+}
+
+.intro-header {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.fa-heartbeat {
+  margin-bottom: 20%;
+}
+
+.fa-university {
+  margin-bottom: 20%;
+}
+
+.fa-shopping-cart {
+  margin-bottom: 20%;
+}
+
+.fa-satellite-dish {
+  margin-bottom: 20%;
+}
+
+#features {
+  margin-top: 11%;
+  padding: 5% 7% 0;
+}
+
+.fea-header {
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.fea-col {
+  text-align: center;
+  padding: 5%;
+}
+
+.fa-cogs {
+  margin-bottom: 1.5rem;
+}
+
+.fa-cogs:hover {
+  color: gray;
+}
+
+.fa-chalkboard-teacher {
+  margin-bottom: 1.5rem;
+}
+
+.fa-chalkboard-teacher:hover {
+  color: gray;
+}
+
+.fa-file-code {
+  margin-bottom: 1.5rem;
+}
+
+.fa-file-code:hover {
+  color: gray;
+}
+
+.fa-share-alt {
+  margin-bottom: 1.5rem;
+}
+
+.fa-share-alt:hover {
+  color: gray;
+}
+
+.fa-salesforce {
+  margin-bottom: 1.5rem;
+}
+
+.fa-salesforce:hover {
+  color: gray;
+}
+
+.fa-chart-line {
+  margin-bottom: 1rem;
+}
+
+.fa-chart-line:hover {
+  color: gray;
+}
+
+#experience {
+  padding: 2% 7% 7%;
+}
+
+.ex-header {
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.ex-header2 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.ex-col {
+  text-align: center;
+  padding: 5%;
+}
+
+.ex-par {
+  font-weight: 500;
+}
+
+.testimonial-text {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  padding: 0 10%;
+  text-align: center;
+}
+
+.carousel-control-next-icon:after {
+  content: '>';
+  font-size: 30px;
+  color: gray;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 30px;
+  color: gray;
+}
+
+.social-icon {
+  margin: 20px 20px;
+}
+
+#footer {
+  background-color: gray;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #454d66;
+  border-width: 2px;
+  width: 50%;
+}
+
+.offer-row {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+}
+
+.dat {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}

@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.5">
+  <title>Banking Software & IT Services for Banks</title>
+  <link rel="icon" href="images/favicon-16x16.png">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,900|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script>
+    function countChar(val) {
+      var len = val.value.length;
+      if (len >= 500) {
+        val.value = val.value.substring(0, 500);
+      } else {
+        $('#charNum').text(500 - len);
+      }
+    };
+  </script>
+</head>
+
+<body style="text-align: center">
+  <section id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="index.html" style="width: 17%;"><img src="images/logo.jpg" style="width: 100%; " alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown">About</a>
+              <div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="mission.html">Mission</a>
+                <a class="dropdown-item" href="management.html">Management Team</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown">Services</a>
+              <div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="dataanalytic.html">Data Analytics</a>
+                <a class="dropdown-item" href="webdevelopment.html">Web Development</a>
+                <a class="dropdown-item" href="mobiledevelopment.html">Mobile App Development</a>
+                <a class="dropdown-item" href="softwaredevelopment.html">Software Product Development</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown">Industries</a>
+              <div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="bankfinanceservice.html">Banking & Financial Services</a>
+                <a class="dropdown-item" href="retail.html">Retail</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown">Blog</a>
+              <div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="aiblog.html">AI</a>
+                <a class="dropdown-item" href="news.html">News</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="career.html">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contacts</a>
+            </li>
+
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </ul>
+
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <h2 style="margin-top: 2%; padding: 0 20%;">Banking Software & IT Services for Banks</h2>
+  <section>
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+      <img src="images/banksoft1.png" style="max-width: 100%; height: auto;" alt="">
+      <p style="padding: 0 30%; margin-top: 10px; margin-bottom: 10px;">For <strong>5 years</strong> GoldenGate delivers various banking software solutions (portals, intranets, mobile apps, CRM, etc.), manages their successful implementation,
+        integration, testing and deployment as well as ensures their solid support.</p>
+      <p style="padding: 0 30%; margin-top: 10px; margin-bottom: 10px;">We provide both platform-based and custom banking software that serves the needs of retail and corporate banking and improves the relationships between financial facilities and
+        their customers, attracting and retaining the most profitable
+        clientele..</p>
+    </div>
+    <h2 style="margin: 3% 0 0 0; padding: 0 20%;">Banking Software Solutions We Implement</h2>
+    <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 3% 0 3% 0;">
+      <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; width: 100%;">
+        <div style="display: flex; flex-direction: row; margin-right: 20px;">
+          <img src="images/banksoft5.png" alt="">
+        </div>
+        <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+          <h3>Banking CRM</h3>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left"><em>With 5 years in CRM consulting, GoldenGate can boost your effectiveness in various customer-facing activities such as:</em></p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ cross-selling and up-selling</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ customer support</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ systematic lead nurturing</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ customer data management</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ channel activity tracking</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ customer experience management, and more.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 0 0 3% 0;">
+      <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; width: 100%;">
+        <div style="display: flex; flex-direction: row; margin-right: 20px;">
+          <img src="images/banksoft6.png" alt="">
+        </div>
+        <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+          <h3>Loyalty program management</h3>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left"><em>Increase customer engagement with your brand and across multiple product lines </em>through:</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ establishing omni-channel communications</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ adopting omni-channel approach for managing customer relationships</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ building flexible reward systems</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ including gamification elements, and more.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 0 0 3% 0;">
+      <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; width: 100%;">
+        <div style="display: flex; flex-direction: row; margin-right: 20px;">
+          <img src="images/banksoft7.png" alt="">
+        </div>
+        <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+          <h3>Banking data analytics</h3>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left"><em>Tap into customer trends and liquidity forecasts, drive revenue and mitigate risks by converting raw data into actionable, reliable and consistent insights.</em></p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">GoldenGate will help you implement the following types of bank data analytics:</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p style="padding-right: 0.8%">◼</p>
+            <p align="left"><strong>Customer analytics</strong> (customer segmentation, attrition analysis, cross-sell effectiveness analysis, etc.);</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p style="padding-right: 0.8%">◼</p>
+            <p align="left"><strong>Channel analytics</strong> (analysis of branch transactions and customer traffic, analysis of click patterns, frequently accessed web-pages, search behavior, the most widely used mobile banking features, etc.);</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p style="padding-right: 0.8%">◼</p>
+            <p align="left"><strong>Marketing analytics</strong> (success of marketing campaigns, factors that increase sales, etc.);</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left"><strong>◼ Risk analytics</strong> (credit risk, market risk, operational risk, liquidity risk, etc.);
+            </p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p style="padding-right: 0.8%">◼</p>
+            <p align="left"><strong>Performance analytics</strong> (sales performance, branch and digital channels performance and profitability, etc.).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 0 0 3% 0;">
+      <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; width: 100%;">
+        <div style="display: flex; flex-direction: row; margin-right: 20px;">
+          <img src="images/banksoft8.png" alt="">
+        </div>
+        <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+          <h3>Lending software</h3>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left"><em>Take fast and well-informed loan decisions, mitigate risks and reduce time and costs of loan delivery.</em></p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ Digitize loan origination, underwriting and servicing.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p style="padding-right: 0.8%">◼</p>
+            <p align="left">Introduce a configurable borrower portal for consumer, commercial and small business loans.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p style="padding-right: 0.8%">◼</p>
+            <p align="left">Opt for a web-portal or a custom mobile application to accelerate the mortgage application process.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 0 0 3% 0;">
+      <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; width: 100%;">
+        <div style="display: flex; flex-direction: row; margin-right: 20px;">
+          <img src="images/banksoft9.png" alt="">
+        </div>
+        <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+          <h3>Payment software</h3>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left"><em>Harness the power of digital payments.</em></p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ Ensure fast and secure transactions with custom mobile payment solutions.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p style="padding-right: 0.8%">◼</p>
+            <p align="left">Increase customer loyalty with NFC or QR-based mobile wallets that hold digital information about customers’ credit and debit cards, store coupons, loyalty programs, and more.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ Enable customers to make real-time, person-to-person (P2P) payments.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ Streamline the accounts payable process for your business clients.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 0 0 3% 0;">
+      <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; width: 100%;">
+        <div style="display: flex; flex-direction: row; margin-right: 20px;">
+          <img src="images/banksoft10.png" alt="">
+        </div>
+        <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+          <h3>Bank intranet</h3>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left"><em>Help employees to work better together.</em></p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ Facilitate collaboration and communication between departments.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ Create unique environment for data sharing and informal communication.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ Ensure information consistency, better data management and search.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p style="padding-right: 0.8%">◼</p>
+            <p align="left">Promote corporate values and strengthen a sense of community within the workplace.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 0 0 3% 0;">
+      <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; width: 100%;">
+        <div style="display: flex; flex-direction: row; margin-right: 20px;">
+          <img src="images/banksoft11.png" alt="">
+        </div>
+        <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+          <h3>Document management system</h3>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left"><em>Ensure seamless and fully automated document circulation in your bank.</em></p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ Build a single library supporting multiple document templates.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ Create automated workflows for receiving, routing and completing documents.
+            </p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ Ensure document compliance with internal standards and regulations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 0 0 3% 0;">
+      <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; width: 100%;">
+        <div style="display: flex; flex-direction: row; margin-right: 20px;">
+          <img src="images/banksoft12.png" alt="">
+        </div>
+        <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+          <h3>Knowledge management solution</h3>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left"><em>Make your bank’s corporate knowledge a competitive advantage.</em></p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ Create a corporate knowledge base and a unified discussion hub.</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ Post information for corporate education.
+            </p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p style="padding-right: 0.8%">◼</p>
+            <p align="left">Share case studies, workshop materials, guidelines, FAQs and other knowledge items.
+            </p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p style="padding-right: 0.8%">◼</p>
+            <p align="left">Discuss events, ask questions, get consultations and do other activities with rich SharePoint knowledge management functionality.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2>What We Offer</h2>
+    <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding-top: 3%;">
+      <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; width: 100%;">
+        <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+          <h3 align="left">Digital transformation consulting</h3>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">Whether you need to develop an enterprise digital strategy or move to a new technology platform, GoldenGate will work closely with you to improve your IT ecosystem. Our IT consultants will help you identify how banking
+              solutions can reinvent your business, as well as help you choose the most suitable platform, and estimate costs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding-top: 0.1%">
+      <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; width: 100%;">
+        <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+          <h3 align="left">IT-based customer experience consulting</h3>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">With 5-year experience in developing CXM solutions, GoldenGate clearly understands what makes excellent customer experience and how software can optimize and enhance all stages of the CXM cycle. Our CX consultants will
+              guide you through a variety of solutions for customer experience management helping to choose and implement the most suitable ones.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding-top: 0.1%">
+      <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; width: 100%;">
+        <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+          <h3 align="left">Solution implementation</h3>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">Backed by deep expertise in implementing platform-based solutions, GoldenGate can meet the ever-changing needs of any banking environment at any scale. To reflect your bank’s unique business models, we can create a
+              solution from scratch thereby satisfying your needs much more precisely than any off-the-shelf product.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding-top: 0.1%">
+      <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; width: 100%;">
+        <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+          <h3 align="left">Solution maintenance and support</h3>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">In case you need a dedicated IT team to upgrade your banking software, GoldenGate can ensure support and maintenance services. With GoldenGate’s help, you can reduce the cost of technical support as well as get upgrades,
+              design update, performance tuning, and patches for your banking systems.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding-top: 0.1%">
+      <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; width: 100%;">
+        <div style="display: flex; flex-direction:column; align-items: flex-start; width: 50%">
+          <h3 align="left">Meet your business challenges</h3>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">At GoldenGate, we successfully meet the following business challenges of retail and corporate banking:</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ Decreased level of customer trust</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ Customer attrition</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ Unsatisfactory CX and loyalty</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ Weak cross-selling</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ Disintegrated communication with customers</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ Fragmented view of customers</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ Increased competition from Fintechs</p>
+          </div>
+          <div style="justify-content: flex-start; display: flex;">
+            <p align="left">◼ and more.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="white-section" id="footer">
+    <div class="container-fluid" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center;">
+      <div style="display: flex; flex-direction: row; justify-content: space-around; align-items: center; width: 100%;">
+        <div style="display: flex; flex-direction:row;">
+          <h4>GOLDENGATE</h4>
+        </div>
+
+        <div style="display: flex; flex-direction:row;">
+          <i class="fas fa-map-marker-alt fa-1x" style="margin-right: 10px"></i>
+          <h6>36 Hoang Cau St, Hanoi</h6>
+        </div>
+
+        <div style="display: flex; flex-direction:row;">
+          <i class="fas fa-envelope fa-1x" style="margin-right: 10px"></i>
+          <a href="mailto:contact@goldengate.biz.vn" style="color: #212529;">
+            <h6>contact@goldengate.biz.vn</h6>
+          </a>
+        </div>
+      </div>
+      <hr>
+      <div>
+        <a href="https://www.facebook.com/" style="color: #212529;"><i class="social-icon fab fa-facebook-f fa-2x"></i></a>
+        <a href="https://twitter.com/GoldenGate_Tech" style="color: #212529;"><i class="social-icon fab fa-twitter fa-2x"></i></a>
+        <a href="https://linkedin.com/in/goldengate-technology" style="color: #212529;"><i class="social-icon fab fa-linkedin-in fa-2x"></i></a>
+      </div>
+      <p>© 2015 GoldenGate Corporation.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
