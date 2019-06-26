@@ -55,8 +55,7 @@ body {
 }
 
 #features {
-  margin-top: 11%;
-  padding: 5% 7% 0;
+  padding: 3% 7% 0;
 }
 
 .fea-header {
@@ -149,18 +148,6 @@ body {
   text-align: center;
 }
 
-.carousel-control-next-icon:after {
-  content: '>';
-  font-size: 30px;
-  color: gray;
-}
-
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 30px;
-  color: gray;
-}
-
 .social-icon {
   margin: 20px 20px;
 }
@@ -186,4 +173,9 @@ hr {
   width: 25%;
   float: left;
   margin-right: 30px;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 40rem;
 }
