@@ -269,31 +269,31 @@
   </section>
   <section id="quote">
     <h2 style="text-align: center; font-weight: 500; margin-bottom: 3%;">Get a free quote</h2>
-    <form style="margin-bottom: 3%">
+    <form style="margin-bottom: 3%" action="mailto:contact@goldengate.biz.vn" method="post" enctype="text/plain">
       <div class="row" style="padding: 0 20%; margin-bottom: 2%;">
         <div class="col">
-          <input type="text" class="form-control" placeholder="Full Name *">
+          <input type="text" class="form-control" name="Full Name" placeholder="Full Name *">
         </div>
         <div class="col">
-          <input type="text" class="form-control" placeholder="Company *">
+          <input type="text" class="form-control" name="Company" placeholder="Company *">
         </div>
       </div>
       <div class="row" style="padding: 0 20%; margin-bottom: 2%;">
         <div class="col">
-          <input type="text" class="form-control" placeholder="Work Email * (we do not process private orders)">
+          <input type="text" class="form-control" name="Work Email" placeholder="Work Email * (we do not process private orders)">
         </div>
         <div class="col">
-          <input type="text" class="form-control" placeholder="Work Phone * (we do not process private orders)">
+          <input type="text" class="form-control" name="Work Phone" placeholder="Work Phone * (we do not process private orders)">
         </div>
       </div>
       <div class="form-group" style="padding: 0 20%;">
-        <textarea class="form-control" rows="5" id="comment" placeholder="How can we help you? * (please do not leave any private information here)" maxlength="500" onkeyup="countChar(this)"></textarea>
+        <textarea class="form-control" name="Feedback" rows="5" id="comment" placeholder="How can we help you? * (please do not leave any private information here)" maxlength="500" onkeyup="countChar(this)"></textarea>
         <div style="display: flex; align-items: flex-end; justify-content: flex-end; margin-bottom: 3%">
           <div id="charNum">500</div>
         </div>
       </div>
       <div style="display: flex; justify-content: center; align-items: center;">
-        <button type="button" class="btn btn-success btn-lg"><i class="">SEND REQUEST</i></button>
+        <button type="submit" class="btn btn-success btn-lg"><i class="">SEND REQUEST</i></button>
       </div>
     </form>
   </section>
